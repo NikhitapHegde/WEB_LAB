@@ -1,0 +1,13 @@
+#cal{
+    background-color:antiquewhite;
+    justify-content: space-evenly;
+    text-align:center;
+    padding:10%;
+    border:50px auto;
+}
+input[type="text"], input[type="button"] {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2px;
+}
