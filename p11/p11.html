@@ -1,0 +1,29 @@
+<!-- Program Statement:
+  Create HTML page that contain textbox, submit / reset button. Write PHP 
+  script to display this information and also store into a text file.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thoughts</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Enter your thoughts</h1>
+  <form action="p11.php" method="POST">
+    <label for="thoughts">Thoughts:</label>
+    <div id="text-con">
+      <textarea rows="25" cols="100" id="thoughts" name="thoughts"></textarea>      
+    </div>
+    <div id="btn-div">
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+
+  
+</body>
+</html>
