@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Student Feedback Form </title>
+        <style>
+          form{
+            margin-left: auto;
+       margin-right: auto;
+        text-align: center;
+        border: 1px solid black;
+        padding-top: 50px;
+        height: 500px;
+        background-color: grey;
+        color: white;
+        width: 50%;
+          }
+          .rad{
+            margin-bottom: 20px;
+          }
+          body{
+            background-color: purple;
+        color: white;
+      }
+      h1{
+        text-align: center;
+      }
+          textarea{
+            margin-top: 5px;
+        margin-bottom: 10px;
+          }
+        </style>
+    </head>
+    <body>
+        <h1>FEEDBACK</h1>
+        <form action="">
+            <input type="text" name="fname" placeholder="Enter your name" class="rad"><br>
+            <input type="text" name="femail" placeholder="Enter your mail-id" class="rad"><br>
+            <input type="text" name="usn" placeholder="Enter your USN" class="rad"><br>
+            <label for="semester">SEM:</label>
+            <select name="semester" id="">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select><br><br>
+            Branch: <br>
+            <input type="radio" class="rad" name="branch" value="CS" >CS</input><br>
+        <input type="radio" class="rad" name="branch" value="IS">IS</input><br>
+        <input type="radio" class="rad" name="branch" value="ECE">ECE</input><br>
+        <br>
+        <input type="checkbox" name="send" checked>Send me the screenshot of this form</input><br>
+        <textarea name="feedback" type="text" rows="5" cols="40" placeholder="type here"></textarea><br>
+        <input type="submit" value="Submit"></button>
+        <input type="reset" value="Reset"></button>
+        </form>
+    </body>
+</html>
